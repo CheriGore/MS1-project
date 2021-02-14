@@ -1,4 +1,4 @@
-# MS1_CyberSecWarriors
+# MS1-project
 
   <a href="#license">License</a> •
   <a href="#ux">UX</a> •
