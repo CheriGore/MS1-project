@@ -1,5 +1,7 @@
 # MS1-project
 
+  <a href="#purpose">Purpose</a> •
+  <a href="#wireframe">Wireframe</a> •
   <a href="#license">License</a> •
   <a href="#ux">UX</a> •
   <a href="#features">Features</a> •
@@ -12,6 +14,7 @@
 >These files should themselves either be included as a pdf file in the project itself (in an 
 >separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+## Purpose of the Project
 This is a basic 3 page website for a jiu jitsu academy, displaying it's outline, classes and contact details. It features; 
 a jumbotron; scrolling, enlarging and fading pictures; data entry overlays; and icons with links to outside sources.
 
@@ -19,6 +22,7 @@ This website was created as my first milestone project (after study of HTML5 and
 fullstack development. For the purpose of showcasing HTML and CSS abilities a website is the best media.  Over time, more 
 pages and parts can be added to present new skills learned.
 
+## Wireframe
 The mockup was created in <a href="(https://www.figma.com/file/RZ6ACWWZjSS0PmnffgtA9j/Elemental-Academy?node-id=1%3A12)
 ">Figma</a> with prototyping.
 
@@ -41,8 +45,7 @@ refered to the site or local people interested in joining the academy. Other use
 schedule, people interested in knowing more about jiu jitsu or anyone wishing to check the validity of training or contact 
 the academy.
 
-### USER STORIES
-The main purposes of use will be:
+The main purposes for users will be:
 * To find basic information (ethos, media links, services, facilities), schedule and required contacts
 * To sign up for a free class
 * To sign up to the mailing list
@@ -50,6 +53,23 @@ The main purposes of use will be:
 * For other jiu jitsu academies to check out the academy
 * For peers with similar skills that may be directed to these pages to help test and advise on their suitability and function
 * For testers with varying skills that can advise of UX and personal preferences
+
+### USER STORIES
+As a prospective student, I want to find out the price so I can check it's within my budget.
+As a prospective student, I want to sign up for a free class so I can have a go.
+As a prospective student, I want to find out the style/ethos so that can decide if its the right place for me.
+As a prospective student, I want to check the class schedule so that I can see if I attend.
+
+As a parent, I want to research local martial arts clubs so that I can find the best fit for my child.
+As a parent, I want to find out the style/ethos so that can decide if its the right place for my family.
+As a parent, I want to contact the academy so that I can discuss my child's needs.
+
+As a student, I want to view the schedule so that I remember what time my class starts.
+As a student, I want to lookup my teachers details so that can contact them.
+As a student, I want to sign up for the mailing list so that I can read the latest news.
+
+As a x, I want to x so that x.
+As a x, I want to x so that x.
 
 ### DESIGN
 All pages will include a static navigation panel at the top and a static panel footer with media links and webmaster details:
@@ -59,7 +79,7 @@ All pages will include a static navigation panel at the top and a static panel f
 
 The overall look shall be clean, clear and professional. Highlighting colours will mainly be green and blue with a dash 
 of purple. The colour scheme consists of:
-* Background white #FFFFFF
+* Backgrounds white #FFFFFF
 * Font colors black or white #000000 #FFFFFF
 * Font color hover purple #84639A
 * Button color green #8FD175
@@ -68,36 +88,87 @@ of purple. The colour scheme consists of:
 * Font type Headers - PT Sans, Bold
 * Font type Paragraphs - PT Sans, Normal
 
-<br>
-
-## Features
-On each medium to large page there can be found:
-* A header navigation bar with:
-    * Elemental Academy logo
-    * A link to all three pages
-    * Social media links
-* A footer with:
-    * Links to further informaion
-
-On each mobile page there can be found:
-* A header navigation bar with:
-    * Elemental Academy logo
-    * A menu navigation to all pages and free class form
-* A footer with:
-    * Links to further informaion
-    * Links to social media
-
-On the index page there is a welcome message, outline of service, testimonials and mailing list signup.
-On the juijitse page more information about how the academy works, along with class information, signup and facilities.
-On the contacts page there is a contact form, academy details, location, map and staff contact informaion.
-
-### Existing Features
+### Benefits
 * A clean, clear, easy-to-use interface
 * Clear navigation to access the other pages
 * Signup to a free class or mailing list
 * Display of photos and expectations
 * Green and blue colouring to make it appear natural and have a healthy appeal
 * Links to social media
+
+<br>
+
+## Features
+The left and right margins are 64px for all pages.  Colors, font and sizes are as per the design section of this document.
+
+### Header for all
+There is the EA icon on the left and written navigation links to all three of the pages in from the right.
+Under the currently view page is a 5px line to determine the viewed page. This moves as each of the three pages are 
+viewed. For mobiles the icon stays, but the written navigation is replaced with a menu button which opens the 'menu' overlay.
+
+### Menu overlay
+Written navigation aligned vertically, split by a 1x grey line, listing the three pages and also 
+FREE CLASS, which opens the 'signup' overlay.
+
+### Signup overlay
+An X top right to close the overlay (cancel). Under this a 240x422px green box with white text inside "Enjoy a free class!".  
+Under this "Please select the class you wish to attend:" with a drop box of class selection (Jiu jitsu, warrior women, 
+personal training, nutricion, private lessons, other). Under this half sections with folowing free field entries: Name 
+(52 character limit), age (1-105 limit), email (must contain characters@somthing.somthing) and phone number (number string 
+at least 11 characters).  Also half span, links to documents that should open overlays, but for this project it should be 
+imagined as there are other examples.  Documents listed vertically - LIABILITY STATEMENT, SOCIAL MEDIA STATEMENT and RULES 
+AND REGULATIONS.  To the right, a tick box and then agreement statement.  Under this a green box with white writing SUBMIT 
+button.
+
+### Footer for all
+A blue background taking up the whole span left to right. Four sections, left aligned. Headers PT Sans Medium black, 
+writing below white and hover is purple.  Sections MY ACCOUNT has Sign in and Register, HELP has FAQ, ABOUT has Our story,
+Location and Media, LEGAL STUFF has Liaility Statement, Social Media Statement and Rules and Regulations.  Under these, 
+medium header FOLLOW, and under four black icons with the url link to Facebook, Instagram, Twitter and LinkedIn.
+
+### Home page
+Header and footer as above.  Welcome section in two halves.  Left half is hero image of black in samari and the words 
+Health, Fitness & Lifestyle written to it's right staggered vertically one word per line.  Under this a space for green 
+wording to change exery 2 seconds - Holistic, support, 753 code, nutricion, defence.  The right half contains a jumbotron 
+with hero image that enlarges slightly on arrival.  The button is green background, white outline and writing "Sign up for 
+a free class". 
+
+Welcome text section has a H2 and three Paragraphs of body text outlining the basic details of the academy.
+
+Testimonials section has four cards with each a picture and a name and quote below.
+
+Join section has a two halves, a header to the left asking "Join the mailing list for more info!" and in the right half, a 
+text box above a blue background button with white writing "JOIN MAILING LIST" which opens the 'Mailing list overlay'.
+
+### Mailing list overlay
+An X top right to close the overlay (cancel). Under this a 240x422px blue box with white text inside "Sign up to our mailing 
+list!".  Under this "Get the latest information on our services and news in the jiu jitsu world".  Under this two half 
+sections with folowing free field entries: Name (52 character limit) and email (must contain characters@somthing.somthing).  
+Underneath, a tick box and then agreement statement.  Under this a blue box with white writing SUBMIT button.
+
+### Jiu Jitsu page
+Header and footer as above.  
+A full span jumbotron with group training picture and the green sign up button from 'home' page.
+
+A two halves section with H2 and writing in left section and staff team picture on the right.
+
+A schedule section with grey Opaque background, a H2, H3 and four cards containing a picture, header and writing detailing 
+the class schedules and finishing with a green button with white writing "Free Class".
+
+A full span strip of five photos.
+
+A facilities section with H2, below a H3, below a list and below four photos.
+
+### Contacts page
+Header and footer as above.  A two halves section with left half background green and right grey opaque.  Within these, 
+three horizontal sections. The first has a form with white H2 "Get in touch!", containing three free form fields below of
+name, email (input restraints as prevoius) and a larger free form message box with a black SUBMIT button below.  The 
+middle section houses H2 hearders of Address, Call us and Opening hours with the details in body text below each.  The
+section to the right has a picture of the map of the academy location.
+
+the meet the team section has four cards with each a picture with a name, description of services, contact details and 
+social media icons with links below.
+
 
 ### Features Left to Implement
 * A shop
