@@ -1,19 +1,12 @@
-body{
-    margin: 64px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: black;
-    text-align: left;
-    background-color: #fff;
+*{
+    margin: 0;
+    padding: 0 0;
 }
 
-header{
-    margin: 0;
-}
+/*-------------------------------Navbar------------------------------*/
 
 .nav-link{
+    font-family: 'PT Sans',sans-serif;
     color: black;
     font-size: large;
     font-weight: bold;
@@ -27,5 +20,32 @@ header{
 }
 
 .active{
-    border-bottom: 4px solid black;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+.navbar-toggler-icon{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------Footer------------------------------*/
+.footer-container{
+    padding: 0px;
+}
+
+
+.footer-link{
+    color:white;
+}
+
+.social-networks li{
+    display: inline;
 }
